@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background: url(subject/4883106_l.jpg) no-repeat;
+  background-size: cover;
+}
+
