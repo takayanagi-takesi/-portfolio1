@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -25,14 +30,17 @@
   font-size:  30px;           /* 文字サイズ */
   width: 200px;               /* 幅指定 */
   text-align:  center;
+}
+
+a {
   display: flex;              /* フレックスボックスにする */
 	justify-content: center;
   flex-direction: row;
 }
 
-#timer {
+.timer {
   display: inline-block;
-  font-size: 50px;
+  font-size: 25px;
   font-weight: 700;
   color: #fff;
   text-shadow    : 
@@ -47,4 +55,6 @@
   letter-spacing : 2px;  
   width: 90%;
   margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
 }
