@@ -9,11 +9,15 @@ body {
   padding: 0;
 }
 
+
 .container {
   width: 100vw;
   height: 100vh;
   background: url(subject/4883106_l.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat
 }
 
 .header-tag {
@@ -22,23 +26,34 @@ body {
   justify-content: flex-end;
 }
 
+#main_login_image {
+  color: #fff;
+  text-shadow    : 
+      2px  2px 1px #003366,
+     -2px  2px 1px #003366,
+      2px -2px 1px #003366,
+     -2px -2px 1px #003366,
+      2px  0px 1px #003366,
+      0px  2px 1px #003366,
+     -2px  0px 1px #003366,
+      0px -2px 1px #003366;  
+  width: 95%;
+  font-size: 15px;
+  text-align: center;
+}
+
 .main {
   padding: 10px;
-  color:  #fff;               /* 文字色 */
-  margin:  10px;              /* 外側の余白 */
-  border-radius:  5px;        /* 角丸指定 */
+  color:  #ffffff;               /* 文字色 */
+  margin:  30px;              /* 外側の余白 */
   font-size:  30px;           /* 文字サイズ */
-  width: 200px;               /* 幅指定 */
-  text-align:  center;
-}
-
-a {
+  width: 300px;               /* 幅指定 */
+  justify-content:  center;
   display: flex;              /* フレックスボックスにする */
-	justify-content: center;
-  flex-direction: row;
+
 }
 
-.timer {
+#timer {
   display: inline-block;
   font-size: 25px;
   font-weight: 700;
@@ -55,6 +70,12 @@ a {
   letter-spacing : 2px;  
   width: 90%;
   margin: 0 auto;
+  position: relative;
+  top: 300px;
+}
+
+/* .container .ul {
   display: flex;
   align-items: flex-end;
-}
+  margin-bottom: 50px;
+} */
