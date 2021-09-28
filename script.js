@@ -48,7 +48,9 @@ document.addEventListener('DOMContentLoaded', function () {
           = '開始まで' + d + '日' + h + '時間' + m + '分' + s + '秒';
       } else if (currentTimeCD >= saleStartTime && currentTimeCD <= saleEndTime) {
         countDownTimer.innerHTML
-          = '次回シフト提出期限まで：' + d + '日' + h + '時間' + m + '分' + s + '秒' + 'で終了';
+          = `次回シフト提出期限まで:
+          ${d}日${h}時間${m}分${s}秒
+          で終了`;
       } else {
         countDownTimer.innerHTML = endMessage;
       }
