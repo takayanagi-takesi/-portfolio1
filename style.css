@@ -26,6 +26,10 @@ body {
   justify-content: flex-end;
 }
 
+li {
+  list-style: none;
+}
+
 #main_login_image {
   color: #fff;
   text-shadow    : 
@@ -44,7 +48,7 @@ body {
 
 .main {
   padding: 30px;
-  color:  #ffffff;               /* 文字色 */
+  color:  #fff;               /* 文字色 */
   margin:  30px;              /* 外側の余白 */
   font-size:  30px;           /* 文字サイズ */
   width: 300px;               /* 幅指定 */
@@ -68,10 +72,10 @@ body {
      -2px  0px 1px #003366,
       0px -2px 1px #003366;
   letter-spacing : 2px;  
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
-  top: 300px;
+  top: 200px;
 }
 
 /* .container .ul {
