@@ -46,17 +46,43 @@ li {
   text-align: center;
 }
 
+.text-input {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+
+}
+
+.text-input input{
+  padding: 10px;
+  margin-top: 40px;
+  width: 80%;
+  margin-right: auto;
+  margin-left : auto;
+
+}
+
+.text-input .text1 {
+  margin-top: 100px;
+}
+
 .main {
   padding: 30px;
-  padding-top: 250px;
-  color:  #fff;               /* 文字色 */
+  padding-top: 30px;
+  /* color:  #fff;               文字色 */
   /* margin:  30px; 
   margin-bottom: 100px;             外側の余白 */
   font-size:  30px;           /* 文字サイズ */
   width: 100%;               /* 幅指定 */
-  /* display: flex;  */
-  justify-content:  center;             /* フレックスボックスにする */
+  display: flex; 
+  justify-content:  center;  
+  flex-direction: column;      /* フレックスボックスにする */
 
+}
+
+.main a {
+  margin-right: auto;
+  margin-left : auto; 
 }
 
 #timer {
