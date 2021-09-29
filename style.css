@@ -48,12 +48,14 @@ li {
 
 .main {
   padding: 30px;
+  padding-top: 250px;
   color:  #fff;               /* 文字色 */
-  margin:  30px;              /* 外側の余白 */
+  /* margin:  30px; 
+  margin-bottom: 100px;             外側の余白 */
   font-size:  30px;           /* 文字サイズ */
-  width: 300px;               /* 幅指定 */
-  justify-content:  center;
-  display: flex;              /* フレックスボックスにする */
+  width: 100%;               /* 幅指定 */
+  /* display: flex;  */
+  justify-content:  center;             /* フレックスボックスにする */
 
 }
 
@@ -75,7 +77,7 @@ li {
   width: 90%;
   margin: 0 auto;
   position: relative;
-  top: 200px;
+  top: 10px;
 }
 
 /* .container .ul {
