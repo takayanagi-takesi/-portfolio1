@@ -13,7 +13,7 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-  background: url(subject/4883106_l.jpg) no-repeat;
+  background: url(./subject/4883106_l.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -53,6 +53,18 @@ li {
 
 }
 
+.login-title1 {
+margin-left: 10px;
+position: absolute;
+top: 280px;
+}
+
+.login-title2 {
+margin-left: 10px;
+position: absolute;
+top: 360px;
+}
+
 .text-input input{
   padding: 10px;
   margin-top: 40px;
@@ -87,7 +99,7 @@ li {
 
 #timer {
   display: inline-block;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 700;
   color: #fff;
   text-shadow    : 
