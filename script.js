@@ -55,6 +55,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  var myTimer = new Timer('2021/1/11 00:00:00', '2021/10/31 23:59:59', '終了！', 'timer');
+  var myTimer = new Timer('2021/1/11 00:00:00', '2021/11/31 23:59:59', '終了！', 'timer');
   myTimer.countDown();
 }, false)
