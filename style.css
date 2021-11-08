@@ -34,12 +34,12 @@ li {
   color: #fff;
   text-shadow    : 
       2px  2px 1px #003366,
-     -2px  2px 1px #003366,
+      -2px  2px 1px #003366,
       2px -2px 1px #003366,
-     -2px -2px 1px #003366,
+      -2px -2px 1px #003366,
       2px  0px 1px #003366,
       0px  2px 1px #003366,
-     -2px  0px 1px #003366,
+      -2px  0px 1px #003366,
       0px -2px 1px #003366;  
   width: 95%;
   font-size: 15px;
@@ -76,6 +76,28 @@ top: 360px;
 
 .text-input .text1 {
   margin-top: 100px;
+}
+
+@media screen and (min-width:768px)  {
+  /*　画面サイズが768pxからはここを読み込む　*/
+  .login-title1 {
+    margin-left: 160px;
+    position: absolute;
+    top: 310px;
+    }
+    
+  .login-title2 {
+  margin-left: 110px;
+  position: absolute;
+  top: 390px;
+  }
+
+  .text-input input{
+
+    width: 50%;
+
+  }
+    
 }
 
 .main {

@@ -27,31 +27,31 @@ document.addEventListener('DOMContentLoaded', function () {
       untilStartTime = saleStartTime - currentTimeCD;
       untilFinishTime = saleEndTime - currentTimeCD;
 
-      if (currentTimeCD < saleStartTime) {
-        d = Math.floor(untilStartTime / oneDay);
-        h = Math.floor((untilStartTime % oneDay) / (60 * 60 * 1000));
-        m = Math.floor((untilStartTime % oneDay) / (60 * 1000)) % 60;
-        s = Math.floor((untilStartTime % oneDay) / 1000) % 60 % 60;
-      } else {
+      // if (currentTimeCD < saleStartTime) {
+      //   d = Math.floor(untilStartTime / oneDay);
+      //   h = Math.floor((untilStartTime % oneDay) / (60 * 60 * 1000));
+      //   m = Math.floor((untilStartTime % oneDay) / (60 * 1000)) % 60;
+      //   s = Math.floor((untilStartTime % oneDay) / 1000) % 60 % 60;
+      // } else {
         d = Math.floor(untilFinishTime / oneDay);
         h = Math.floor((untilFinishTime % oneDay) / (60 * 60 * 1000));
         m = Math.floor((untilFinishTime % oneDay) / (60 * 1000)) % 60;
         s = Math.floor((untilFinishTime % oneDay) / 1000) % 60 % 60;
-      }
+      // }
 
       showTime();
     }
 
     function showTime() {
-      if (currentTimeCD < saleStartTime) {
-        countDownTimer.innerHTML
-          = '開始まで' + d + '日' + h + '時間' + m + '分' + s + '秒';
-      } else if (currentTimeCD >= saleStartTime && currentTimeCD <= saleEndTime) {
+      // if (currentTimeCD < saleStartTime) {
+      //   countDownTimer.innerHTML
+      //     = '開始まで' + d + '日' + h + '時間' + m + '分' + s + '秒';
+      // } else if (currentTimeCD >= saleStartTime && currentTimeCD <= saleEndTime) {
         countDownTimer.innerHTML = `次回シフト提出期限まで:<br>
           ${d}日${h}時間${m}分${s}秒で終了`;
-      } else {
-        countDownTimer.innerHTML = endMessage;
-      }
+      // } else {
+      //   countDownTimer.innerHTML = endMessage;
+      // }
     }
   }
 
